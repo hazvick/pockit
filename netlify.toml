@@ -1,0 +1,6 @@
+[dev]
+  functions = ".netlify/functions"
+
+[functions]
+  external_node_modules = ["node-fetch", "jsdom"]
+  node_bundler = "esbuild"
